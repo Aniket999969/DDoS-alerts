@@ -1,0 +1,11 @@
+{
+    "webhook": "https://discord.com/api/webhooks/923638214248529930/u96hFkbuWLO8vZrKWmspkN1P8Izx5ZDF5PyIfeYbAfKzz66qUrjn7GZ_ptrB_x5BxP0f",
+    "title": "We have detected a D(Dos) attack",
+    "description": "To protect your service from D(Dos) attacks we added mitigation",
+    "color": "16766720",
+    "image": "https://cdn.discordapp.com/attachments/945184087218470912/945201630708637757/Screenshot_2022-02-21_011210.jpg",
+    "url": "https://temperhosting.co",
+    "key": "482okrokeowowpriewop",
+    "footer": "We have detected a ddos attack we have saved it as a .pcap"
+}
+
