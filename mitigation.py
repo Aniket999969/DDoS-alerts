@@ -253,7 +253,7 @@ while(True):
         ram=os.popen('''free -m | awk 'NR==2{printf "%.2f%%\t\t", $3*100/$2 }' ''').readline()
         CPU_Pct=str(round(float(os.popen('''top -n 1 -b | awk '/^%Cpu/{print $2}' ''').readline())))
         uptime=os.popen(''' uptime -p ''').readline()
-        webhook2 = DiscordWebhook(url='https://discord.com/api/webhooks/923638214248529930/u96hFkbuWLO8vZrKWmspkN1P8Izx5ZDF5PyIfeYbAfKzz66qUrjn7GZ_ptrB_x5BxP0f', username="DDoS Notis")
+        webhook2 = DiscordWebhook(url='yourwebhookhere', username="DDoS Notis")
         embed = DiscordEmbed(title="D(dos) Mitigation activated", url="https://temperhosting.co/", description="To protect your service from D(Dos) attacks we added mitigation", color=16624689)
         embed.set_footer(text=footerv3)
         embed.set_timestamp()
