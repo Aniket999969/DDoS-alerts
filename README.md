@@ -7,3 +7,4 @@ Run mitigation.py
 thats it. python3 is required :)
 
 change your network interface from eno1 to yours ctrl + f to find eno1 and change everywere to yours.
+also, goto line 256 and change your discord webhook.
